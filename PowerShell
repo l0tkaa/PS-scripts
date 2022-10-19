@@ -1,2 +1,12 @@
+#entering var $chromeproc will return chrome processes
+
 $chromeproc = get-process | where {$_.ProcessName -eq "chrome"}
+
+
+
+#entering var $discordproc will return discord processes
+
 $discordproc = get-process | where {$_.ProcessName -eq "discord"}
+
+
+
