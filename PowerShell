@@ -9,4 +9,4 @@ $chromeproc = get-process | where {$_.ProcessName -eq "chrome"}
 $discordproc = get-process | where {$_.ProcessName -eq "discord"}
 
 
-
+Winget upgrade --all
